@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "pertemuan_2");
+$conn = new mysqli("localhost", "root", "", "pertemuan2");
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
